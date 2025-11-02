@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard</title>
+    <link href="../css/All.css" rel="stylesheet" />
+    <link href="../css/Dashboard.css" rel="stylesheet" />
+</head>
+<body>
+    <button id="logoutButton" onclick="logout()">Logout</button>
+    <h1>Dashboard</h1>
+    <div id="dashboardContainer">
+        <div id="welcomeMessage"></div>
+        <div id="creditCard">
+            <img src="../image/creditCard.png" alt="Credit Card" onclick="navigateTo('MyCharges')" />
+        </div>
+
+        <div id="chargeSummary">
+            <div>
+                <h2>Previous Month's Charge:</h2>
+                <p id="previousCharge">0$</p>
+            </div>
+            <div>
+                <h2>Upcoming Charge:</h2>
+                <p id="upcomingCharge">0$</p>
+            </div>
+        </div>
+
+        <!-- Birthday coupon -->
+        <div id="birthdayCoupon"></div>
+
+        <!-- Cards for navigation -->
+        <div class="card">
+            <h2>My Charges</h2>
+            <p>View a detailed summary of your charges.</p>
+            <button onclick="navigateTo('MyCharges')">Go to My Charges</button>
+        </div>
+
+        <div class="card">
+            <h2>Actions</h2>
+            <p>Load new transactions to your account.</p>
+            <button onclick="navigateTo('Actions')">Go to Actions</button>
+        </div>
+
+        <div class="card">
+            <h2>Budget</h2>
+            <p>View and manage your budget for the current month.</p>
+            <button onclick="navigateTo('Budget')">Go to Budget</button>
+        </div>
+
+        <div class="card">
+            <h2>Recurring</h2>
+            <p>Track your recurring payments and see the monthly average.</p>
+            <button onclick="navigateTo('Recurring')">Go to Recurring</button>
+        </div>
+
+        <div class="card">
+            <h2>Recommendations</h2>
+            <p>Expense analysis and receiving personalized recommendations for managing expenses in the next month.</p>
+            <button id="fetchRecommendations">Get Recommendations</button>
+        </div>
+
+        <!-- Recommendations Section -->
+        <div id="recommendations">
+            <!-- Recommendations will be displayed here -->
+        </div>
+    </div>
+    <script src="../JS/Dashboard.js"></script>
+</body>
+</html>

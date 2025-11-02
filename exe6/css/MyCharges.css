@@ -1,0 +1,101 @@
+﻿body {
+    background-color: #f4f4f4;
+}
+
+#myChargesContainer {
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chargeSummary {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#chargeSummary h2 {
+    color: #007bff;
+}
+
+#totalCharge {
+    font-size: 24px;
+    color: #333;
+}
+
+#chargesTable {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#chargesTable h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#chargesTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+#chargesTable th,
+#chargesTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#chargesTable th {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+#chargesTable tr:hover {
+    background-color: #f9f9f9;
+}
+
+#bar-chart-container,
+#pie-chart-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+canvas#pieChart {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#pieChartLegend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pieChartLegend div {
+    display: flex;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+#pieChartLegend span {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:480px){
+    canvas#pieChart {
+        width: 100%;
+    }
+    #chargesTable th, #chargesTable td{
+        font-size:14px;
+    }
+}

@@ -1,0 +1,71 @@
+Date      , Business Name    , Category                     , Amount
+01/01/2024, Starbucks        , Food & Beverage              ,5.75
+02/01/2024, Amazon           , Retail & Shopping            ,52.99
+03/01/2024, Whole Foods      , Home & Personal Care         ,78.4
+04/01/2024, Shell            , Travel & Transportation      ,40
+05/01/2024, Netflix          , Entertainment & Subscriptions,15.99
+01/02/2024, Dunkin' Donuts   , Food & Beverage              ,4.5
+02/02/2024, Airbnb           , Travel & Transportation      ,120
+03/02/2024, Walmart          , Retail & Shopping            ,45.2
+04/02/2024, Spotify          , Entertainment & Subscriptions,9.99
+05/02/2024, Home Depot       , Home & Personal Care         ,150
+01/03/2024, Panera Bread     , Food & Beverage              ,16.2
+02/03/2024, IKEA             , Retail & Shopping            ,130
+03/03/2024, Trader Joe's     , Retail & Shopping            ,54.3
+04/03/2024, Microsoft        , Entertainment & Subscriptions,120
+05/03/2024, GameStop         , Entertainment & Subscriptions,60
+01/04/2024, Starbucks        , Food & Beverage              ,6
+02/04/2024, Amazon           , Retail & Shopping            ,75.5
+03/04/2024, Best Buy         , Retail & Shopping            ,250
+04/04/2024, Shell            , Travel & Transportation      ,50
+05/04/2024, Netflix          , Entertainment & Subscriptions,17.99
+01/05/2024, Dunkin' Donuts   , Food & Beverage              ,5
+02/05/2024, Airbnb           , Travel & Transportation      ,130
+03/05/2024, Apple Store      , Retail & Shopping            ,1050
+04/05/2024, Costco           , Home & Personal Care         ,180
+05/05/2024, Subway           , Food & Beverage              ,9.5
+01/06/2024, Panera Bread     , Food & Beverage              ,18
+02/06/2024, Delta Airlines   , Travel & Transportation      ,300
+03/06/2024, Zara             , Retail & Shopping            ,95
+04/06/2024, Trader Joe's     , Retail & Shopping            ,60
+05/06/2024, Microsoft        , Entertainment & Subscriptions,130
+01/07/2024, Starbucks        , Food & Beverage              ,7
+02/07/2024, Amazon           , Retail & Shopping            ,80
+03/07/2024, Best Buy         , Retail & Shopping            ,275
+04/07/2024, Shell            , Travel & Transportation      ,60
+05/07/2024, Netflix          , Entertainment & Subscriptions,18.99
+01/08/2024, Dunkin' Donuts   , Food & Beverage              ,6
+02/08/2024, Airbnb           , Travel & Transportation      ,140
+03/08/2024, Apple Store      , Retail & Shopping            ,1100
+04/08/2024, Costco           , Home & Personal Care         ,190
+05/08/2024, Subway           , Food & Beverage              ,10
+01/09/2024, Panera Bread     , Food & Beverage              ,20
+02/09/2024, Delta Airlines   , Travel & Transportation      ,320
+03/09/2024, Zara             , Retail & Shopping            ,100
+04/09/2024, Trader Joe's     , Retail & Shopping            ,65
+05/09/2024, Microsoft        , Entertainment & Subscriptions,140
+01/10/2024, Starbucks        , Food & Beverage              ,8
+02/10/2024, Amazon           , Retail & Shopping            ,85
+03/10/2024, Best Buy         , Retail & Shopping            ,290
+04/10/2024, Shell            , Travel & Transportation      ,70
+05/10/2024, Netflix          , Entertainment & Subscriptions,19.99
+01/11/2024, Dunkin' Donuts   , Food & Beverage              ,6.5
+02/11/2024, Airbnb           , Travel & Transportation      ,150
+03/11/2024, Apple Store      , Retail & Shopping            ,1150
+04/11/2024, Costco           , Home & Personal Care         ,200
+05/11/2024, Subway           , Food & Beverage              ,11
+01/12/2024, Panera Bread     , Food & Beverage              ,21
+02/12/2024, Delta Airlines   , Travel & Transportation      ,340
+03/12/2024, Zara             , Retail & Shopping            ,105
+04/12/2024, Trader Joe's     , Retail & Shopping            ,70
+05/12/2024, Microsoft        , Entertainment & Subscriptions,150
+01/01/2025, Starbucks        , Food & Beverage              ,7.5
+02/01/2025, Amazon           , Retail & Shopping            ,82
+03/01/2025, Best Buy         , Retail & Shopping            ,305
+04/01/2025, Shell            , Travel & Transportation      ,65
+05/01/2025, Netflix          , Entertainment & Subscriptions,20.99
+06/01/2025, Best Buy         , Retail & Shopping            ,60
+07/01/2025, Starbucks        , Food & Beverage              ,7.5
+08/01/2025, Starbucks        , Food & Beverage              ,7.5
+09/01/2025, Starbucks        , Food & Beverage              ,7.5
+10/01/2025, Zara             , Retail & Shopping            ,20.5

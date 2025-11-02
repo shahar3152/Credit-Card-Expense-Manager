@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracking</title>
+    <link href="../css/All.css" rel="stylesheet" />
+    <link href="../css/Budget.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Back to Dashboard Button -->
+    <button id="backButton" class="back-button">Back to Dashboard</button>
+
+    <h1>Budget Tracking</h1>
+
+    <div id="budgetContainer">
+        <!-- Form for setting the budget -->
+        <form id="budgetForm">
+            <div class="category">
+                <label for="FoodAndBeverage">Food & Beverage:</label>
+                <input type="number" id="FoodAndBeverage" step="0.01">
+            </div>
+            <div class="category">
+                <label for="RetailAndShopping">Retail & Shopping:</label>
+                <input type="number" id="RetailAndShopping" step="0.01">
+            </div>
+            <div class="category">
+                <label for="HomeAndPersonalCare">Home & Personal Care:</label>
+                <input type="number" id="HomeAndPersonalCare" step="0.01">
+            </div>
+            <div class="category">
+                <label for="TravelAndTransportation">Travel & Transportation:</label>
+                <input type="number" id="TravelAndTransportation" step="0.01">
+            </div>
+            <div class="category">
+                <label for="EntertainmentAndSubscriptions">Entertainment & Subscriptions:</label>
+                <input type="number" id="EntertainmentAndSubscriptions" step="0.01">
+            </div>
+        </form>
+        <!-- Save and Edit buttons -->
+        <button id="saveButton" disabled>Save</button>
+        <button id="editButton">Edit</button>
+
+        <!-- Summary of budget and spending -->
+        <div id="summaryContent" class="summary"></div>
+    </div>
+
+    <script src="../JS/Budget.js"></script>
+</body>
+</html>

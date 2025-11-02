@@ -1,0 +1,37 @@
+﻿html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    height:100%;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 17%; 
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #218838;
+}
+
+@media screen and (max-width:480px) {
+    .back-button {
+        font-size: 14px;
+        width: 20%;
+        padding:2px;
+    }
+}

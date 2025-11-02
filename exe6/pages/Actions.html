@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Actions</title>
+    <link href="../css/Actions.css" rel="stylesheet" />
+    <link href="../css/All.css" rel="stylesheet" />
+</head>
+<body>
+    <button id="backButton" class="back-button">Back to Dashboard</button>
+    <h1>Actions</h1>
+    <div id="actionsContainer">
+        <p>In this screen, you can load transactions from a file and add additional actions.</p>
+
+        <!-- File input for uploading CSV file -->
+        <label for="csvFile">Upload Transaction File (CSV format):</label>
+        <input type="file" id="csvFile" accept=".csv" />
+
+        <button id="loadTransactions">Load Transactions</button>
+        <div id="loadStatus"></div>
+    </div>
+    <script src="../JS/Actions.js"></script>
+</body>
+</html>

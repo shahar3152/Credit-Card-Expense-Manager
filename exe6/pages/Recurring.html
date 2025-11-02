@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Recurring Transactions</title>
+    <link href="../css/All.css" rel="stylesheet" />
+    <link href="../css/Recurring.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Back to Dashboard Button -->
+    <button id="backButton" class="back-button">Back to Dashboard</button>
+
+    <h1>Recurring Transactions</h1>
+
+    <!-- Card Container for Month Selection and Table -->
+    <div id="cardContainer" class="card">
+        <div id="monthSelectorContainer">
+            <!-- Month Selection -->
+            <label for="monthSelector">Select Month:</label>
+            <select id="monthSelector">
+                <!-- Options for months will be dynamically populated -->
+            </select>
+        </div>
+
+        <div id="transactionsTableContainer">
+            <!-- Table for displaying recurring transactions -->
+            <table id="transactionsTable">
+                <thead>
+                    <tr>
+                        <th>Business</th>
+                        <th>Category</th>
+                        <th>Purchases This Month</th>
+                        <th>Total Spending</th>
+                        <th>Average per Purchase</th>
+                    </tr>
+                </thead>
+                <tbody id="transactionList">
+                    <!-- Data rows will be added dynamically here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="../JS/Recurring.js"></script>
+</body>
+</html>
